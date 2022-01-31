@@ -8,4 +8,4 @@ cta:
   ctaText: Find out more
   ctaLink: /about
 ---
-Eric is a web development student from Somerset, New Jersey.
+Eric is a current web development student and an aspiring web development professional from Somerset, New Jersey.
