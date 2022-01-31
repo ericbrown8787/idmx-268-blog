@@ -1,9 +1,6 @@
 ---
 template: contact-page
 slug: /contact
-title: Get in touch
+title: Contact
 ---
-
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
-
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+Have a question about any of my blogs or repos? I'd be happy to talk about it. Just fill out the form below.
