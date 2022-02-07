@@ -15,21 +15,13 @@ Web browsers themselves are applications, and their own performance overhead may
 
 ## What Happens When A Browser Loads A Page?
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work) has a great article that describes the process of populating a page from DNS lookup to your browser spilling pixels forth onto your display. For out purposes here, I want to divide this process into two major steps:
-
-1. The browser obtains the necessary resources from the server and parses them
-   to generate a DOM tree.
-2. The browser renders the page with all of its components to the screen based on the calculations it made in step 1.
-
-Both of those steps themselves have numerous steps to them, and both processes run simultaneously, but I think it helps to imagine these as two good targets for some basic, high-level optimization practices. Today I'd like to focus on the rendering step to discuss what we as developers can do to write better code while keeping the rendering process in mind.
-
-## Optimizing Page Rendering
-
-When CSS or Javascript acts to change the appearance of elements on a webpage, the browser follows a series of steps to translate those changes in instructions into what appears on a user's display.
+[](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)When a browser renders a page it follows a series of steps to translate the instructions provided by JavaScript and CSS into an image that appears on a display. 
 
 ![The steps of rendering a page in a web browser](/assets/steps-of-page-rendering.jpg)
 
 [Image source: developers.google.com](https://developers.google.com/web/fundamentals/performance/rendering)
+
+Any time the state of the page changes, the browser must start the rendering process again from one of these steps in order to update the image being displayed. 
 
 One of my first experiences with these concepts happened while I was working on a JavaScript practice project, in which I used a for loop to append a number of divs(determined by squaring a number input by the user) into a grid container to create a two-dimensional canvas that the user could draw on by moving their pointer over the container.
 
@@ -72,7 +64,7 @@ Now, you're not writing loops with thousands of iterations in CSS, but these les
 
 A **reflow** is an operation that causes the browser to re-render the layout of a page. During a reflow, the browser recalculates the position and dimensions of some or all of the elements in the document.
 
-A **repaint** is an operation that rasterizes elements, converting calculated values into a map of pixels that appear on your display. While repaints also incur a significant performace cost, they do not affect the position or dimensions of the element that they are acting on or surrounding elements. Rasterization, even at the best of times, requires a lot of processing power to calculate once, let alone multiple times in the event of re-rendering.
+A **repaint** is an operation that rasterizes elements, converting calculated values into a map of pixels that appear on your display. While repaints also incur a significant performance cost, they do not affect the position or dimensions of the element that they are acting on or surrounding elements. Rasterization, even at the best of times, requires a lot of processing power to calculate once, let alone multiple times in the event of re-rendering.
 
 As a general rule, I think a developer concerned with making their site usable on a wide variety of devices should be mindful of how elements are rendered by the browser and what conditions can trigger a reflow or a repaint.
 
@@ -94,4 +86,4 @@ Unfortunately, the fact that most CSS properties trigger a recalculation of thei
 
 While it can be difficult or impossible to avoid *all* reflows and repaints, it is important to keep the operations that trigger them in mind when building a webpage, especially when it comes to creating websites that will perform well on mobile devices. Animation is an important area to watch, as animating the wrong properties can effectively undo most of the work that a user's browser did when initially rendering a page, and if a page performs poorly on a desktop or laptop, chances are the problems are going to be even worse on mobile.
 
-As with most topics related to web development, the best approach to optimizing your project for performance depends very much on your project's specicfic use-cases, but having some understanding of how browsers use the resources of the device that they are running on can help us as developers create applications that use these resources efficiently to create the best user experience.
+As with most topics related to web development, the best approach to optimizing your project for performance depends very much on your project's specific use-cases, but having some understanding of how browsers use the resources of the device that they are running on can help us as developers create applications that use these resources efficiently to create the best user experience.
