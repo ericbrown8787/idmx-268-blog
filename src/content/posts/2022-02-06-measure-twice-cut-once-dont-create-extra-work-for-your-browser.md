@@ -4,6 +4,7 @@ title: "Measure twice, cut once: Don't create extra work for your browser. "
 slug: /measure-twice-cut-once
 date: 2022-02-06 18:21
 description: "An article that discusses performance considerations in web development. "
+featuredImage: /assets/nathan-dumlao-5hl5reicevy-unsplash.jpg
 ---
 ## Introduction
 
