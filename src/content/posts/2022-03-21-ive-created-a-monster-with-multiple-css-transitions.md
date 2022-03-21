@@ -81,10 +81,8 @@ At this point, Slorpo has a lot going on. His mouth opens, his eyes widen, he ch
   The Most Cursed CSS Transitions Tutorial Ever</a> by Eric Brown (<a href="https://codepen.io/ericbrown8787">@ericbrown8787</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-<figcaption>
-<p>IT'S ALIVE.</p>
-<p>This pen was inspired very distantly by Geoff Graham's 
-<a href="https://codepen.io/geoffgraham/pen/dGoOMB">much less unhinged Codepen. </a></p>
+<figcaption style="color:whitesmoke">
+IT'S ALIVE! This pen was inspired very distantly by Geoff Graham's <a href="https://codepen.io/geoffgraham/pen/dGoOMB">much less unhinged Codepen. </a>
 </figcaption>
 </figure>
 
