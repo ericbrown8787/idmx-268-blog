@@ -115,9 +115,9 @@ A lot of the time, box shadows can take a bit of fiddling with to get them to lo
 
 Finally, here's the Codepen I created this demo in. Try adjusting some of the values to see how the shadows change. 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGaKKvN" data-editable="true" data-user="ericbrown8787" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/ericbrown8787/pen/bGaKKvN">
+
+<iframe height="800" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/ericbrown8787/embed/bGaKKvN?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/ericbrown8787/pen/bGaKKvN">
   Untitled</a> by Eric Brown (<a href="https://codepen.io/ericbrown8787">@ericbrown8787</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
