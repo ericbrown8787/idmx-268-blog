@@ -22,7 +22,7 @@ Box shadows were just these magical things that projected a ghostly silhouette o
 
 Well, as it turns out, I ended up doing something a little more complicated than I was expecting to for that part of the project because the instructions were to style the embedded video somehow and my first thought was "Uhh. It's a video, so why not stick it in a box that looks like a film strip?"
 
-![A meme, courtesy of [this generator](https://www.ranzey.com/generators/bart/index.html)](/assets/meme.png)
+![A meme, courtesy of: https://www.ranzey.com/generators/bart/index.html](/assets/meme.png)
 
 Ok, all self-deprecating jokes aside, I feel pretty good about having actually figured out how to do that at that stage in learning CSS. I was able to get the effect I wanted out of it at least. This is what the final product looked like:
 
