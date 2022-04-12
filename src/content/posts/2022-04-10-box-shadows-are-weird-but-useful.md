@@ -26,7 +26,7 @@ Well, as it turns out, I ended up doing something a little more complicated than
 
 Ok, all self-deprecating jokes aside, I feel pretty good about having actually figured out how to do that at that stage in learning CSS. I was able to get the effect I wanted out of it at least. This is what the final product looked like:
 
-![How I styled that embedded video](about-me.png)
+![How I styled that embedded video](/assets/about-me.png)
 
 But now, almost 6 months and probably a few hundred hours worth of experience later, maybe I can improve it a bit. So let's start with some HTML.
 
@@ -97,7 +97,7 @@ Outlines have a few limitations. They can't be set to a specific side of an elem
 }
 ```
 
-![Our film strip container with shadows added to create an outline](/assets/step-4.png)
+![Our film strip container with shadows added to create an outline](/assets/step-2.png)
 
 Now we have a bold outline outside of our box, without the limitations of the `outline` property. With one more shadow, we end up with a more interesting [Neobrutalism-inspired container](https://hype4.academy/articles/design/neubrutalism-is-taking-over-web) for a video. 
 
@@ -114,7 +114,6 @@ Now we have a bold outline outside of our box, without the limitations of the `o
 A lot of the time, box shadows can take a bit of fiddling with to get them to look how you want them to look, but they can be a useful tool for creating more complex styles than the `border` property allows for on its own.
 
 Finally, here's the Codepen I created this demo in. Try adjusting some of the values to see how the shadows change. 
-
 
 <iframe height="600" style="width: 100%;" scrolling="no" title="A Video Container Using Box Shadows" src="https://codepen.io/ericbrown8787/embed/bGaKKvN?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/ericbrown8787/pen/bGaKKvN">
