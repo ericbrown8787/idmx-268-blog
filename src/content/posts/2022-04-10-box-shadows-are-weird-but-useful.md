@@ -99,7 +99,7 @@ Outlines have a few limitations. They can't be set to a specific side of an elem
 
 ![Our film strip container with shadows added to create an outline](/assets/step-4.png)
 
-Now we have a bold outline outside of our box, without the limitations of the `outline` property. With one more shadow, we end up with a more interesting [Neobrutalism](https://hype4.academy/articles/design/neubrutalism-is-taking-over-web)-inspired container for a video. 
+Now we have a bold outline outside of our box, without the limitations of the `outline` property. With one more shadow, we end up with a more interesting [Neobrutalism-inspired container](https://hype4.academy/articles/design/neubrutalism-is-taking-over-web) for a video. 
 
 ```css
 .film-strip {
@@ -116,7 +116,7 @@ A lot of the time, box shadows can take a bit of fiddling with to get them to lo
 Finally, here's the Codepen I created this demo in. Try adjusting some of the values to see how the shadows change. 
 
 
-<iframe height="800" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/ericbrown8787/embed/bGaKKvN?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%;" scrolling="no" title="A Video Container Using Box Shadows" src="https://codepen.io/ericbrown8787/embed/bGaKKvN?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/ericbrown8787/pen/bGaKKvN">
   Untitled</a> by Eric Brown (<a href="https://codepen.io/ericbrown8787">@ericbrown8787</a>)
   on <a href="https://codepen.io">CodePen</a>.
