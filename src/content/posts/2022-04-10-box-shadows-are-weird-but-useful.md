@@ -66,7 +66,7 @@ It does look a little flat, and considering I used slight box shadows on a lot o
 }
 ```
 
-![Step 2 of styling the film strip container](step-2.png)
+![Step 2 of styling the film strip container](/assets/step-2.png)
 
 Now, if this were a real strip of film and not made of CSS, you'd be able to see some of the shadow being cast by the film strip through the perforations. It doesn't look like that's happening here though. 
 
